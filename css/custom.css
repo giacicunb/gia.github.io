@@ -37,7 +37,6 @@
   line-height: 24px;
   color: #000000;
   text-transform: uppercase;
-  font-family: 'source_sans_probold';
   padding-bottom: 10px;
   letter-spacing: 1px;
   text-align: center;
@@ -92,7 +91,6 @@
   line-height: 32px;
   color: #454855;
   text-transform: uppercase;
-  font-family: 'source_sans_probold';
   letter-spacing: 1px;
 }
 
@@ -100,7 +98,6 @@
   font-size: 18px;
   line-height: 24px;
   color: #454855;
-  font-family: 'source_sans_prolight';
 }
 
 .thumbnail {
@@ -156,7 +153,6 @@ a.thumbnail:focus {
   line-height: 24px;
   color: #454855;
   padding-bottom: 15px;
-  font-family: 'source_sans_probold';
   text-transform: uppercase;
 }
 
