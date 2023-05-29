@@ -1,144 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
 
     <title>Artificial Intelligence Group @ CIC/UnB | Grupo de Inteligência Artificial (GIA)</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/component.css">
-    <link rel="stylesheet" href="css/custom-styles.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
-    <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" href="css/font-awesome-ie7.css">
-
-    <script src="js/jquery.mobilemenu.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.menu').mobileMenu();
-        });
-    </script>
-
-</head>
-
-<body>
-    <div class="header-wrapper">
-        <div class="site-name">
-            <img title="Header Artificial Intelligence Group | Grupo de Inteligência Artificial" src="img/head.png">
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body class="p-0 body-custom">
+        <div class="row d-flex justify-content-center pt-5 p-4 m-0 bg-white">
+            <img title="Header Artificial Intelligence Group | Grupo de Inteligência Artificial" src="img/head.png" class="img-fluid">
             <!--<h1>Grupo de Inteligência Artificial</h1>
                 <h2>Departamento de Ciência da Computação</h2>-->
         </div>
-    </div>
 
-    <div class="menu">
-      <div class="navbar">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fw-icon-th-list"></i>
-            </button>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-             <li class="dropdown">
-                    <a href="people.html" class="dropbtn">People</a>
-                    <div class="dropdown-content">
-                        <a href="people.html#faculty">Faculty</a>
-                        <a href="people.html#phd">PhD Candidates</a>
-                        <a href="people.html#msc">MsC Candidates</a>
-                        <a href="people.html#undergraduate">Undergraduate Students</a>
-                        <a href="alumni.html">Alumni/Alumnae</a>
-                    </div>
-                </li>
-              <li><a href="research.html">Research</a></li>
-              <li class="dropdown">
-                    <a href="projects.html" class="dropbtn">Projects</a>
-                    <div class="dropdown-content">
-                    <a href="projects.html#active">Active</a>
-                    <a href="projects.html#past">Past</a>
-                    </div>
-                </li>
-              <li><a href="publications.html">Publications</a></li>
-              <li class="dropdown">
-                    <a href="teaching.html" class="dropbtn">Teaching</a>
-                    <div class="dropdown-content">
-                    <a href="teaching.html#ppgi">Graduate Programs</a>
-                    <a href="teaching.html#undergraduate">Undergraduate Program</a>
-                    </div>
-                </li>
-              <li><a href="opportunities.html">Opportunities</a></li>
-            <li class="dropdown">
-                    <a href="aboutus.html" class="dropbtn">About Us</a>
-                    <div class="dropdown-content">
-                    <a href="aboutus.html">History</a>
-                    <a href="gallery.html">Pic Gallery</a>
-                    </div>
-                </li>
-            </ul>
-          </div>
-        </div>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+    <li class="nav-item active dropdown">
+      <a class="nav-link" href="people.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      People
+    </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="people.html#leaders">Leaders</a>
+        <a class="dropdown-item" href="people.html#faculty">Faculty</a>
+        <a class="dropdown-item" href="people.html#phd">PhD Candidates</a>
+        <a class="dropdown-item" href="people.html#msc">MsC Candidates</a>
+        <a class="dropdown-item" href="people.html#undergraduate">Undergraduate Students</a>
+        <a class="dropdown-item" href="alumni.html">Alumni/Alumnae</a>
       </div>
-    </div>
-    <!--
-    <div class="menu">
-      <div class="navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-                    <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                    </div>
-                </li>
-                </div>
+    </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Research</a>
+            </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="projects.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Projects
+    </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="projects.html#active">Active</a>
+        <a class="dropdown-item" href="projects.html#past">Past</a>
+      </div>
+    </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="teaching.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Teaching
+    </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="teaching.html#ppgi">Graduate Programs</a>
+        <a class="dropdown-item" href="teaching.html#undergraduate">Undergraduate Program</a>
+      </div>
+    </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="opportunities.html">Opportunities</a>
+            </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      About Us
+    </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="aboutus.html">History</a>
+        <a class="dropdown-item" href="gallery.html">Pic Gallery</a>
+      </div>
+    </li>
+
+          </ul>
         </div>
-        </div>
-    </div>
-    -->
-    <!--<div class="menu">
-      <div class="navbar">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fw-icon-th-list"></i>
-            </button>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Publications</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">People</a></li>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">Resources and Media</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>-->
-      
+      </nav>
+    </header>
+
+    <main role="main">
+
+
       <div class="container">
 
         <div class="featured-block">
         
             <h1
-                style="font-size: 36px; line-height: 24px; color: #454855;font-family: 'source_sans_probold'; letter-spacing: 1px;">
+                style="font-size: 36px; line-height: 32px; color: #454855;font-family: 'source_sans_probold'; letter-spacing: 1px;">
                 People</h1>
         
        </div>
@@ -148,9 +112,61 @@
 
         <div class="featured-block">
 
+            <h1
+                id="leaders" style="font-size: 28px; line-height: 32px; color: #454855; text-transform: uppercase;font-family: 'source_sans_probold'; letter-spacing: 1px;">
+                Leaders</h1><br><br>
+
             <!-- Example row of columns -->
             <div class="row">
-                
+                <div class="col-md-3">
+                    <div class="block">
+                        <div class="thumbnail">
+                            <img src="figs/faculty/luis_garcia.jpg" alt="" title="Picture" width="150" height="150"
+                                class="img-responsive">
+                            <div class="caption">
+                                <h1>Luís P. F. Garcia</h1>
+                                <a href="href=" https://orcid.org/0000-0003-0679-9143">
+                                    <img title="ORCID Profile" src="img/orcid.png" width="25" height="25"> </a>
+
+                                <a href="http://lattes.cnpq.br/1607852138156562">
+                                    <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
+
+                                <a href="mailto:luis.garcia@unb.br">
+                                    <img title="E-mail" src="img/email.png" width="25" height="25"> </a>
+
+                                <a href="https://github.com/lpfgarcia">
+                                    <img title="GitHub Repository" src="img/gtb.png" width="25" height="25"> </a>
+
+                                <a href="http://lpfgarcia.github.io/">
+                                    <img title="Website" src="img/www.png" width="25" height="25"> </a><br><br>
+                                Data Mining, Machine Learning<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="col-md-3">
+                    <div class="block">
+                        <div class="thumbnail">
+                            <img src="figs/faculty/marcelo_ladeira.jpg" alt="" title="Picture" width="150" height="150"
+                                class="img-responsive">
+                            <div class="caption">
+                                <h1>Marcelo Ladeira</h1>
+                                <a href="href="https://orcid.org/0000-0003-1542-6293">
+                                    <img title="ORCID Profile" src="img/orcid.png" width="25" height="25"> </a>
+
+                                <a href="http://lattes.cnpq.br/2507980325174728">
+                                    <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
+
+                                <a href="mailto:mladeira@unb.br">
+                                    <img title="E-mail" src="img/email.png" width="25" height="25"> </a><br><br>
+
+                                Bio-inspired Computing, Data Mining, Machine Learning<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="featured-block">
                     <h1
                         id="faculty" style="font-size: 28px; line-height: 32px; color: #454855; text-transform: uppercase;font-family: 'source_sans_probold'; letter-spacing: 1px;">
@@ -172,7 +188,7 @@
 
                                         <a href="https://github.com/andlq">
                                             <img title="GitHub Repository" src="img/gtb.png" width="25" height="25"> </a><br><br>
-                                        Data Mining, Machine Learning, Natural Language Processing<br>
+                                        Machine Learning, Natural Language Processing<br><br>
                                     </div>
                                 </div>
                             </div>
@@ -207,113 +223,65 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-3">
+                            
                             <div class="block">
                                 <div class="thumbnail">
-                                    <img src="figs/faculty/luis_garcia.jpg" alt="" title="Picture" width="150" height="150"
+                                    <img src="figs/faculty/maristela_holanda.png" alt="" title="Picture" width="150" height="150"
                                         class="img-responsive">
                                     <div class="caption">
-                                        <h1>Luís P. F. Garcia</h1>
-                                        <a href="href=" https://orcid.org/0000-0003-0679-9143">
-                                            <img title="ORCID Profile" src="img/orcid.png" width="25" height="25"> </a>
-
-                                        <a href="http://lattes.cnpq.br/1607852138156562">
+                                        <h1>Maristela Holanda</h1>
+                                        
+                                        <a href="https://orcid.org/0000-0002-0883-2579">
+                                        <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
+                                            8px 8px> </a>
+                                        
+                                        <a href="http://lattes.cnpq.br/5724567591998546">
                                             <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
+                                            
 
-                                        <a href="mailto:luis.garcia@unb.br">
+                                        <a href="mailto:mholanda@unb.br">
                                             <img title="E-mail" src="img/email.png" width="25" height="25"> </a>
-
-                                        <a href="https://github.com/lpfgarcia">
-                                            <img title="GitHub Repository" src="img/gtb.png" width="25" height="25"> </a>
-
-                                        <a href="http://lpfgarcia.github.io/">
-                                            <img title="Website" src="img/www.png" width="25" height="25"> </a><br><br>
-                                        Data Mining, Machine Learning<br><br>
+                                        
+                                        <br><br>
+                                        Data Mining, Databases and Big Data, Data Visualization and Visual Analytics<br>
                                     </div>
                                 </div>
                             </div>
+                            
+                            
                         </div>
-                        
+
                         <div class="col-md-3">
+                                                        
                             <div class="block">
                                 <div class="thumbnail">
-                                    <img src="figs/faculty/marcelo_ladeira.jpg" alt="" width="150" height="150"
+                                    <img src="figs/faculty/roberta_oliveira.jpg" alt="" title="Picture" width="150" height="150"
                                         class="img-responsive">
                                     <div class="caption">
-                                        <h1>Marcelo Ladeira</h1>
-                                        <a href="https://orcid.org/0000-0003-1542-6293">
-                                            <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
-                                                8px 8px> </a>
+                                        <h1>Roberta B. Oliveira</h1>
+                                        
+                                        <a href="https://orcid.org/0000-0002-5373-9402">
+                                        <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
+                                            8px 8px> </a>
+                                        
+                                        <a href="http://lattes.cnpq.br/1308225137416807">
+                                            <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
+                                            
 
-                                        <a href="http://lattes.cnpq.br/2507980325174728">
-                                            <img title="Curriculum Lattes" src="img/lattes.png" width=24" height="27"> </a>
-
-                                        <a href="mailto:mladeira@unb.br">
-                                            <img title="E-mail" src="img/email.png" width=25" height="25"> </a><br><br>
-                                        Bio-inspired Computing, Data Mining, Machine Learning<br><br>
+                                        <a href="mailto:roberta.oliveira@unb.br">
+                                            <img title="E-mail" src="img/email.png" width="25" height="25"> </a><br><br>
+                                            
+                                        Computer Vision, Machine Learning<br><br>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div><br>
 
                     <div class="row">
-                    
-                        <div class="col-md-3">
-                                
-                                <div class="block">
-                                    <div class="thumbnail">
-                                        <img src="figs/faculty/maristela_holanda.png" alt="" title="Picture" width="150" height="150"
-                                            class="img-responsive">
-                                        <div class="caption">
-                                            <h1>Maristela Holanda</h1>
-                                            
-                                            <a href="https://orcid.org/0000-0002-0883-2579">
-                                            <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
-                                                8px 8px> </a>
-                                            
-                                            <a href="http://lattes.cnpq.br/5724567591998546">
-                                                <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
-                                                
-
-                                            <a href="mailto:mholanda@unb.br">
-                                                <img title="E-mail" src="img/email.png" width="25" height="25"> </a>
-                                            
-                                            <br><br>
-                                            Data Mining, Databases and Big Data, Data Visualization and Visual Analytics<br>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="col-md-3">
-                                                            
-                                <div class="block">
-                                    <div class="thumbnail">
-                                        <img src="figs/faculty/roberta_oliveira.jpg" alt="" title="Picture" width="150" height="150"
-                                            class="img-responsive">
-                                        <div class="caption">
-                                            <h1>Roberta B. Oliveira</h1>
-                                            
-                                            <a href="https://orcid.org/0000-0002-5373-9402">
-                                            <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
-                                                8px 8px> </a>
-                                            
-                                            <a href="http://lattes.cnpq.br/1308225137416807">
-                                                <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
-                                                
-
-                                            <a href="mailto:roberta.oliveira@unb.br">
-                                                <img title="E-mail" src="img/email.png" width="25" height="25"> </a><br><br>
-                                                
-                                            Computer Vision, Machine Learning<br><br>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                         <div class="col-md-3">
                                                        
@@ -340,7 +308,7 @@
 
                                         <a href="https://github.com/teodecampos/">
                                             <img title="GitHub Repository" src="img/gtb.png" width="25" height="25"> </a><br><br>
-                                        Computer Vision, Machine Learning, Natural Language Processing<br>
+                                        Computer Vision, Machine Learning, Natural Language Processing<br><br>
                                     </div>
                                 </div>
                             </div>
@@ -373,34 +341,34 @@
 
                                         <a href="https://github.com/thiagodepaulo">
                                             <img title="GitHub Repository" src="img/gtb.png" width="25" height="25"> </a><br><br>
-                                        Data Mining, Machine Learning, Natural Language Processing<br>
+                                        Data Mining, Machine Learning, Natural Language Processing<br><br>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div><br>
-                        
-                    <div class="row">
-                        <div class="col-md-3">
                             
+                            
+                        </div>
+
+                        <div class="col-md-3">
+                        
                         <div class="block">
                                 <div class="thumbnail">
                                     <img src="figs/faculty/vinicius_borges.jpg" alt="" title="Picture" width="150" height="150"
-                                            class="img-responsive">
+                                        class="img-responsive">
                                     <div class="caption">
                                         <h1>Vinícius R. P. Borges</h1>
-                                            
+                                        
                                         <a href="https://orcid.org/0000-0003-1254-8420">
                                         <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
-                                                8px 8px> </a>
-                                            
+                                            8px 8px> </a>
+                                        
                                         <a href="http://lattes.cnpq.br/1841593572448050">
                                             <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
-                                                
+                                            
 
                                         <a href="mailto:viniciusrpb@unb.br">
                                             <img title="E-mail" src="img/email.png" width="25" height="25"> </a>
-                                                
+                                            
                                         <a href="https://viniciusrpb.github.io/">
                                             <img title="WWW" src="img/www.png" width="25" height="25"> </a>
 
@@ -412,7 +380,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
                     <div class="featured-block">
 
@@ -720,37 +687,6 @@
                             <div class="col-md-3">
                                 <div class="block">
                                     <div class="thumbnail">
-                                        <img src="figs/undergrad/joao_pedro.jpg" width="150" height="150" alt=""
-                                            class="img-responsive">
-                                        <div class="caption">
-                                            <h1>João Pedro F. M. Cavalcante</h1>
-
-                                            <a href="https://orcid.org/0009-0009-9003-3159">
-                                            <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
-                                                8px 8px> </a>
-
-                                            
-                                            <a href=" https://lattes.cnpq.br/1793525161624402">
-                                                <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
-
-                                            <a href="https://github.com/joaopedro-xy">
-                                                <img title="GitHub Repository" src="img/gtb.png" width="25" height="25"> </a><br>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-
-                        </div><br>
-
-                        <div class="row">
-                        
-                        
-                            <div class="col-md-3">
-                                <div class="block">
-                                    <div class="thumbnail">
                                         <img src="figs/undergrad/lucca_huguet.jpeg" width="150" height="150" alt=""
                                             class="img-responsive">
                                         <div class="caption">
@@ -766,6 +702,12 @@
                                     </div>
                                 </div>
                             </div>
+                            
+                            
+
+                        </div><br>
+
+                        <div class="row">
                         
                             <div class="col-md-3">
                                 <div class="block">
@@ -785,29 +727,6 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            <div class="col-md-3">
-                                <div class="block">
-                                    <div class="thumbnail">
-                                        <img src="figs/undergrad/matheus_santos.jpg" width="150" height="150" alt=""
-                                            class="img-responsive">
-                                        <div class="caption">
-                                            <h1>Matheus S. Alencar</h1><br>
-
-                                            <a href="https://orcid.org/0009-0004-0265-1664">
-                                            <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding:
-                                                8px 8px> </a>
-                                                
-                                            <a href="https://lattes.cnpq.br/8217670042631957">
-                                                <img title="Curriculum Lattes" src="img/lattes.png" width="24" height="27"> </a>
-
-                                            <a href="https://github.com/MatThHeuss">
-                                                <img title="GitHub Repository" src="img/gtb.png" width="25" height="25"> </a>
-                                                
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="col-md-3">
                                 <div class="block">
@@ -815,7 +734,7 @@
                                         <img src="figs/undergrad/mayara_chew.jpg" width="150" height="150" alt=""
                                             class="img-responsive">
                                         <div class="caption">
-                                            <h1>Mayara Chew Marinho</h1><br>
+                                            <h1>Mayara Chew</h1><br>
                                             
                                             <a href="https://orcid.org/0009-0004-3159-7804">
                                             <img title="ORCID Profile" src="img/orcid.png" width=25" height="25" padding: 8px 8px> </a>
@@ -830,11 +749,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                        </div><br>
-                        
-                        <div class="row">
-                        
                             
                             <div class="col-md-3">
                                 <div class="block">
@@ -887,36 +801,11 @@
                     
                     </div> </div> </div></div>
 
-<footer class="footer" role="contentinfo">
-		<!--<div class="footer-inner">
-						<div class="clearfix"></div>
-			<hr />
-			
-			<div class="creditos text-center container">
-				<p>
-					<em>Campus</em> Universitário Darcy Ribeiro, Brasília-DF | CEP 70910-900 | telefone geral 55 61 3107 3300 <br />
-					Copyright &copy; 2023 Universidade de Brasília. Todos os direitos reservados.
-				</p>
-			</div>
-		</div>-->
 
-       <link type="text/css" href="https://web.unb.br/templates/compartilhado/css/template.css" rel="stylesheet">
-	<!--div class='cookie_bar'>
-            Usamos cookies para permitir que o nosso website funcione corretamente, para personalizar conteúdo e anúncios, para proporcionar funcionalidades das redes sociais e para analisar o nosso tráfego. Também partilhamos informação com os nossos parceiros das redes sociais, de publicidade e de analítica sobre o seu uso do nosso website. Saiba mais: 
-            <a href='https://web.unb.br/images/politica-de-cookies/Poltica_de_Cookies.pdf' title='Políticas de cookies' target='_blank'>Políticas de cookies</a>
-                <button type='button'>Aceitar cookies</button>
-        </div-->
-       	<footer class="footer" role="contentinfo">
-		<div class="footer-inner">
-			<div class="menu-footer container">
-        
 
-      
-      
-      <div class="container creditos">
-   <div class="prestacao-contas text-center">
-      <div>&nbsp;</div>
-   </div>
+      <!-- FOOTER -->
+      <footer class="d-flex justify-content-center footer-custom mt-5 mh-0 p-0">
+        <div class="d-flex flex-row w-50 m-5">
    <div class="copyright text-center">
       <span>Grupo de Inteligência Artificial</span><br>
       <span>Departamento de Ciência da Computação (CIC) - Universidade de Brasília</span><br>
@@ -928,42 +817,21 @@
       <br />
       <span>Melhor visualizado nos navegadores Google Chrome e Mozilla Firefox</span>
    </div>
-   <div class="acesso-informacao text-center">
-      <div class="media">
-         <a href="https://unb.br/administrativo/acesso-a-informacao/" title="Acesso à Informação" target="_blank">
-            <img src="https://web.unb.br/images/icones/acesso_informacao.png" alt="Acesso à Informação" style="width: 32px;" />
-         </a>
-         <div style="text-align: left;">
-            <h6 style="margin: 0 0 0 0.9rem;">
-               <small>
-                  <a href="https://unb.br/administrativo/acesso-a-informacao/" title="Acesso à Informação" target="_blank" style="color: #026e3a !important; font-size: 0.8rem; font-weight: initial;">Acesso à Informação</a>
-               </small>
-            </h6>
-         </div>
-      </div>
-      <h6 style="font-size: 1.8rem; font-weight: inherit; margin: 1.5rem 0.5rem 0.5rem 0;">
-         <a href="https://ouvidoria.unb.br/" title="Ouvidoria UnB" target="_blank">OUVIDORIA<span style="font-weight: bold;">UnB</span></a>
-      </h6>
-      <h6 style="font-size: 1rem; margin: 1.5rem 0.5rem 1.5rem;">
-         <a href="https://unb.br/institucional/transparencia-e-prestacao-de-contas" title="Transparência UnB" target="_blank" style="line-height: 1.3rem;">TRANSPARÊNCIA E PRESTAÇÃO DE CONTAS</a>
-      </h6>
-   </div>
+
 </div>
-      
-      
-        
-      </div>
 
-      
 
+      </footer>
+    </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
   </body>
 </html>
