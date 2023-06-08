@@ -218,11 +218,3 @@ a.thumbnail:focus {
 .copyright a {
   color: #fff !important;
 }
-
-.carousel-caption {
-   text-shadow: 0 2px 2px #000;
-}
-
-.carousel-container {
-  margin-bottom: 15px;
-}
