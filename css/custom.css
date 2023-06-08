@@ -222,3 +222,7 @@ a.thumbnail:focus {
 .carousel-caption {
    text-shadow: 0 2px 2px #000;
 }
+
+.carousel-container {
+  margin-bottom: 2rem;
+}
