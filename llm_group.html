@@ -1,30 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLM Study Group</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Artificial Intelligence Group @ CIC/UnB | Grupo de Inteligência Artificial (GIA)</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="css/custom.css" rel="stylesheet">
+        
+        <style>
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 15px;
             text-align: center;
         }
         nav {
             display: flex;
-            justify-content: center;
-            background-color: #444;
-            padding: 10px 0;
+            justify-content: center;            
         }
         nav a {
-            color: #fff;
             text-decoration: none;
             padding: 8px 15px;
         }
@@ -36,66 +33,163 @@
             margin: 20px;
             background-color: #fff;
         }
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
     </style>
-</head>
-<body>
-    <header>
-        <h1>LLM Study Group</h1>
-    </header>
+    </head>
+
+    <body class="p-0 body-custom">
+
+        <div class="row d-flex justify-content-center pt-5 p-4 m-0 bg-white">
+            <img title="Header Artificial Intelligence Group | Grupo de Inteligência Artificial" src="img/head.png" class="img-fluid">
+            <!--<h1>Grupo de Inteligência Artificial</h1>
+                <h2>Departamento de Ciência da Computação</h2>-->
+        </div>
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto mx-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="people.html">People<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="research.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        R&D</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="research.html">Research Interests</a>
+                            <a class="dropdown-item" href="labs.html">Associated Labs</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="projects.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="projects.html#active">Active</a>
+                            <a class="dropdown-item" href="projects.html#past">Past</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="teaching.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Teaching</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="teaching.html#ppgi">Graduate Programs</a>
+                            <a class="dropdown-item" href="teaching.html#undergraduate">Undergraduate Program</a>
+                        </div>
+                    </li>
+
+                    <!--<li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Us</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="aboutus.html">History</a>
+                            <a class="dropdown-item" href="gallery.html">Pic Gallery</a>
+                        </div>
+                    </li>-->
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="workshop_ia_unb.html">AI Workshop at UnB</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+       
+       <section id="titulo">
+       <header>
+        <h1>Grupo de Estudos em Large Language Modelos</h1>
+       </header>
+       </section>
 
     <nav>
-        <a href="#about">About</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#resources">Resources</a>
-        <a href="#contact">Contact</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#inscricao">Inscrição</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contato">Contatos</a>        
     </nav>
 
-    <section id="about">
-        <h2>About the Study Group</h2>
-        <p>Welcome to the LLM Study Group! Our group aims to provide a collaborative environment for individuals pursuing their Master of Laws degree. We organize study sessions, discussions, and share resources related to various legal subjects covered in the LLM program.</p>
+    <section id="sobre">
+        <h2>Sobre o grupo de estudos</h2>
+        <p>Sejam muito bem-vindos a este espaço dedicado à aprendizagem e aprofundamento em LLM. Neste grupo, teremos a oportunidade de compartilhar conhecimentos, debater ideias e aprimorar nossas habilidades em LLM juntos.</p>
+        <p> Existem vários LLMs no mercado! Posso citar alguns: GPT, Llama, Bloom, Falcon, Mistral. Você tem recurso computacional ($$$) para rodar alguns desses? </p>
+        <h5> Objetivos do grupo: </h5>
+        <ul>
+        	<li> Organizar alunos interessados em estudar LLM e arranjar recursos computacionais para experimentos. </li>
+        	<li> Reuniões semanais para palestras, discussões e resoluções de problemas</li>        	
+        	<li> Metodologia de aprendizagem baseada em resolução de problemas </li>
+        	<li> Arrecadar recursos para executar LLMs </li>
+        	<li> Solicitar créditos para núven (Google Cloud research credits) </li>
+        </ul>               
+    </section>
+    
+    <section id="inscricao">
+    	<h2>Faça sua inscrição no grupo:</h2>
+	<a href="https://forms.office.com/r/u95ThwWjdr" target="_blank"><button>Formulário de Inscrição</button></a>      
     </section>
 
-    <section id="schedule">
-        <h2>Study Group Schedule</h2>
-        <p>Our study group meets every [insert days/times]. Below is our upcoming schedule:</p>
-        <ul>
-            <li>[Day, Date, Time] - Topic: [Topic of Discussion]</li>
-            <li>[Day, Date, Time] - Topic: [Topic of Discussion]</li>
-            <!-- Add more scheduled sessions -->
-        </ul>
+    <section id="agenda">
+        <h2>Agenda do grupo do estudo</h2>
+        <p>Nosso grupo irá se reunir uma vez por semana. </p>
+        <p>Ajude no planejamento, indique horários disponíveis para reunião semanal</p>
+        <a href="https://doodle.com/meeting/participate/id/eZwA4oEa" target="_blank"><button>Indique sua disponibilidade</button></a>        
     </section>
 
-    <section id="resources">
-        <h2>Study Resources</h2>
-        <p>We have compiled various resources to aid in your LLM studies:</p>
+    <section id="recursos">
+        <h2>Recursos de estudos</h2>
+        <p>Temos vários materiais para estudos:</p>
         <ul>
-            <li>Recommended textbooks</li>
-            <li>Online articles and journals</li>
-            <li>Useful websites and databases</li>
-            <li>Previous study materials</li>
+            <li>Recomendações de Livros</li>
+            <li>Artigos</li>
+            <li>Sites e blogues úteis</li>            
             <!-- Add more resources -->
         </ul>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to join our study group, feel free to contact us:</p>
-        <p>Email: example@email.com</p>
-        <p>Phone: [Phone number]</p>
+    <section id="contato">
+        <h2>Entre em contato</h2>
+        <p>Se você tem qualquer questão ou queira se juntar ao nosso grupo, sinta-se livre para entrar em contato:</p>
+        <p>Email: thiagodepaulo@unb.br</p>
+        <p>MS Teams: a definir </p>
+        <p> Grupo do Telegram: a definir </p>
         <!-- Add more contact information -->
     </section>
+           
+              
+            <!-- FOOTER -->
+            <footer class="d-flex justify-content-center footer-custom mt-5 mh-0 p-0">
+                <div class="d-flex flex-row w-50 m-5">
+                    <div class="copyright text-center">
+                        <span>Grupo de Inteligência Artificial</span><br>
+                        <span>Departamento de Ciência da Computação (CIC) - Universidade de Brasília</span><br>
+                        <span><em>Campus</em> Universitário Darcy Ribeiro, </span>
+                        <span>Brasília-DF | CEP 70910-900</span>
+                        <span><a href="https://noticias.unb.br/images/Telefones_unb/mprazer.pdf" alt="" target="_blank">Telefones UnB</a></span>
+                        <span>Copyright © 2023 <a href="http://gia.unb.br" target="_blank" alt="">Grupo de Inteligência Artificial - CIC/UnB</a>.</span>
+                        <span>Todos os direitos reservados.</span>
+                        <br>
+                        <span>Melhor visualizado nos navegadores Google Chrome e Mozilla Firefox</span>
+                    </div>
+                </div>
+            </footer>
+        </main>
 
-    <footer>
-        <p>&copy; 2023 LLM Study Group. All rights reserved.</p>
-    </footer>
-</body>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
 </html>
